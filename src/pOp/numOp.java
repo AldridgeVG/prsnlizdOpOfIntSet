@@ -4,17 +4,19 @@ public class numOp {
 
     public static void op1(int x, int y, numElem[] N){
 
-        //if x has no child, remove x and set 0, attach to y head;
+        int y1 = N[y].head.num;
+
+        //if x has no child, remove x and set 0, attach to y's group head;
         if(N[x].head.nxt == null){
 
             //signify x is now in y's list
             N[x].num = 0;
-            N[x].head.num = y;
+            N[x].head.num = y1;
 
             //attach numNode x(new) to linked list y
             numNode p = new numNode(x);
-            p.nxt = N[y].head.nxt;
-            N[y].head.nxt = p;
+            p.nxt = N[y1].head.nxt;
+            N[y1].head.nxt = p;
         }
 
         //if x has child, attach x's whole linked list to y
@@ -23,15 +25,15 @@ public class numOp {
             //find tail of x's linked list
             numNode tmp = N[x].head.nxt;
             N[x].num = 0;
-            N[x].head.num = y;
+            N[x].head.num = y1;
             N[x].head.nxt = null;
             while(tmp.nxt != null){
                 tmp = tmp.nxt;
             }
 
             //attach tmp list to y's head
-            tmp.nxt = N[y].head.nxt;
-            N[y].head.nxt = N[x].head.nxt;
+            tmp.nxt = N[y1].head.nxt;
+            N[y1].head.nxt = N[x].head.nxt;
         }
         return;
     }
@@ -39,7 +41,7 @@ public class numOp {
     public static void op2(int x, numElem[] N){
 
         //if x is a single set
-        if(N[x].num == x || N[x].head.nxt == null){
+        if(N[x].num == x && N[x].head.nxt == null){
             return;
         }
 
@@ -60,6 +62,7 @@ public class numOp {
 
             //restore x
             N[x].num = x;
+            N[x].head = null;
             N[x].head = new numNode(x);
         }
     }
@@ -67,7 +70,7 @@ public class numOp {
     public static int op3(int x, numElem[] N){
 
         int xgrp = N[x].head.num;
-        int count = 0;
+        int count = 1;
         numNode p = N[xgrp].head;
         while(p.nxt!=null){
             count++;

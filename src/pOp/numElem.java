@@ -1,7 +1,7 @@
 package pOp;
 
 public class numElem {
-    public static int cnt = 1;
+    public static int cnt = 0;
     public int num;
     public numNode head;
 

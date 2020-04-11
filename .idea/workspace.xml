@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f1b016a-ec13-40de-9eba-cfc3fd8cf4c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/psnlizdOp/pOp/mainPsnlizdOp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/psnlizdOp/pOp/mainPsnlizdOp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/psnlizdOp/pOp/numElem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/psnlizdOp/pOp/numElem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/psnlizdOp/pOp/numOp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/psnlizdOp/pOp/numOp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pOp/mainPsnlizdOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pOp/mainPsnlizdOp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pOp/numElem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pOp/numElem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pOp/numOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pOp/numOp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pOp/numTrav.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pOp/numTrav.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
