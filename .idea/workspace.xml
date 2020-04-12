@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f1b016a-ec13-40de-9eba-cfc3fd8cf4c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/caxus.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/psnlizdOp/pOp/mainPsnlizdOp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/psnlizdOp/pOp/mainPsnlizdOp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/psnlizdOp/pOp/numElem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/psnlizdOp/pOp/numElem.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/psnlizdOp/pOp/numOp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/psnlizdOp/pOp/numOp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pOp/mainPsnlizdOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pOp/mainPsnlizdOp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pOp/numElem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pOp/numElem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pOp/numOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pOp/numOp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pOp/numTrav.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pOp/numTrav.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +29,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="coverage" />
   </component>
   <component name="RunDashboard">
@@ -85,10 +82,78 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pOp/numOp.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pOp/numOp.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pOp/numOp.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pOp/numOp.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pOp/numOp.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pOp/numOp.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pOp/numOp.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pOp/numOp.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pOp/mainPsnlizdOp.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pOp/mainPsnlizdOp.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pOp/mainPsnlizdOp.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pOp/mainPsnlizdOp.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

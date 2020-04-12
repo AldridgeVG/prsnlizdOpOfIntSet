@@ -45,6 +45,21 @@ public class numOp {
             return;
         }
 
+        //if x is in x set(as elem num)
+        else if(N[x].num == x && N[x].head.nxt != null){
+
+            int nxtnum = N[x].head.nxt.num;
+            numNode p = N[x].head.nxt;
+            System.out.println(nxtnum);
+            //attach linked list to nxtnum's elem
+            N[nxtnum].num = nxtnum;
+            N[nxtnum].head.num = nxtnum;
+            N[nxtnum].head.nxt = p;
+
+            //x is now a single num
+            N[x].head.nxt = null;
+        }
+
         //if x is in other set(including x)
         else if(N[x].num == 0){
 
